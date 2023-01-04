@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.promo{
+  height: 789px;
+  background-image: url(../img/Rectangle\ 1.jpg);
+  background-size: cover;
+
+}
+.container{
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  padding: 26px 0;
+justify-content: space-between;
+align-items: center;
+}
+.nav{
+  display: flex;
+  gap: 20px;
+
+}
+.nav a{
+  color: white ;
+font-size: 14px;
+text-decoration: none;
+font-weight: 500;
+}
+.promo h1{
+  font-weight: 700;
+  font-size: 96px;
+  color: white;
+  margin-top: 129px;
+  margin: 130px 0 40px ;
+}
+button{
+  width: 230px;
+  height: 50px;
+  background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+  border-radius: 60px;
+  border: 0;
+  font-weight: 700;
+  font-size: 14px;
+color: white;
+cursor: pointer;
+}
+.tour{
+  padding: 90px 0 110px;
+}
+.tour_head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.tour_head a{
+  /* text-decoration: none; */
+  color: black;
+}
+.tour_head a:hover{
+  font-weight: 500;
+  font-size: 12px;
+  color: #282828;
+  
+}
+.tourbox{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr );
+  gap: 20px;
+  margin-top: 36px;
+  
+}
+.touritem{
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 211px 16px 42px;
+  border-radius: 10px;
+  color: white;
+ font-weight: 500;
+ font-size: 12px;
+ display: flex;
+ flex-direction: column;
+
+}
+ .touritem h3 {
+  color: gold;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 2px 0 10px;
+ }
+ .three{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px;
+
+ }
+ .detailfont{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+ }
+ .touritem p {
+  margin-bottom: 22px;
+ } 
+ .touritem button{
+  margin-top: auto;
+  width: 160px;
+  height: 40px;
+ 
+ }
+ h2{
+  font-weight: 700;
+font-size: 24px;
+color: #0499DD;
+
+ }
+ .menu{
+display: none;
+flex-direction: column;
+gap: 6px;
+ }
+ .menuspan{
+  width: 40px;
+  height: 5px;
+  background: white;
+  border-radius: 10px;
+ }
+ .about{
+  background-image: url(../img/Rectangle\ 4.png);
+ padding: 140px 0 140px ;
+ background-size: cover;
+ height: 749px;
+
+ }
+ .aboutbox{
+ max-width: 546px;
+ height: 469px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 60px 80px 100px;
+  gap: 20px ;
+  border-radius: 10px;
+ }
+ .aboutbox h2{
+  margin-bottom: 40px;
+ }
+ .aboutbox p{
+  margin-bottom: 20px;
+ }
+ .container4{
+  margin:100px 100px 200px  ;
+ }
+ .excursion_grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 90px 0 60px ;
+  gap: 40px 20px ;
+ }
+ .excursion_item{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+ }
+ .excursion_item h3{
+  font-weight: 700;
+font-size: 18px;
+color: #0499DD;
+margin-bottom: 10px;
+
+ }
+ .excursion_bottom{
+  max-width: 550px ;
+  margin: 0 auto;
+  text-align: center;
+ }
+.excursion_bottom p{
+  
+}
