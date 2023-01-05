@@ -5,10 +5,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 .promo{
-  height: 789px;
-  background-image: url(../img/Rectangle\ 1.jpg);
-  background-size: cover;
-
+height: 789px;
+position: relative;
+}
+.video{
+  z-index: -1;
+position: absolute;
 }
 .container{
   max-width: 1140px;
